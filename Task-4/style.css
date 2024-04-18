@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    height: 20vh;
+    width: 40vw;
+    border: 2px solid black;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 1.5%;
+    row-gap: 7%;
+}
+
+.box1, .box3, .box5, .box7 {
+    background-color: #444444;
+    border-radius: 4px;
+    color: azure;
+}
+
+.box2, .box4, .box6, .box8 {
+    background-color: #cccccc;
+    border-radius: 4px;
+}
+
+.box {
+    font-size: 3vh;
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+}
+
+.box1, .box2 {
+    order: 1;
+}
