@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contain {
+    border: 2px solid black;
+    height: 15vh;
+    width: 60vw;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap:1%;
+    justify-content: center;
+}
+
+.con {
+    background-color: aquamarine;
+    font-size: 3vh;
+    border-radius: 3px;
+    padding: 5%;
+}
+
+.alag {
+    justify-self: end;
+}
